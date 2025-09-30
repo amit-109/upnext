@@ -22,7 +22,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        Build smarter with <span className="animated-gradient">YourBrand.AI</span>
+        Build smarter with <span className="animated-gradient">UpNext.AI</span>
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 30 }}

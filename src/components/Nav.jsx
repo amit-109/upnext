@@ -11,7 +11,7 @@ const Nav = ({ theme, toggleTheme }) => {
       <div className="container nav-inner">
         <a className="brand" href="#" onClick={(e)=>{e.preventDefault(); window.scrollTo({top:0, behavior:'smooth'})}}>
           <img src="/src/assets/logo.svg" alt="logo" />
-          <div>Your<span>Brand.AI</span></div>
+          <div>UpNext<span>.AI</span></div>
         </a>
         <div style={{display:'flex', gap:8, alignItems:'center'}}>
           <a className="link" href="#services" onClick={e=>{e.preventDefault(); scrollToId('services')}}>Services</a>

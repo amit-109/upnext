@@ -44,7 +44,7 @@ const Contact = () => {
           <div style={{display:'flex', gap:12, alignItems:'center', flexWrap:'wrap'}}>
             <button className="btn" type="submit" disabled={status==='sending'}>{status==='sending' ? 'Sending…' : 'Send message'}</button>
             {status!=='idle' && status!=='sending' && <span className="small">{status==='sent' ? 'Thanks! We will get back to you.' : status}</span>}
-            <span className="small">Or email: <span className="kbd">hello@yourbrand.ai</span></span>
+            <span className="small">Or email: <span className="kbd">hello@UpNext.ai</span></span>
           </div>
         </form>
       </section>
@@ -53,9 +53,9 @@ const Contact = () => {
         <div className="container" style={{display:'flex', justifyContent:'space-between', alignItems:'center', gap:12, flexWrap:'wrap'}}>
           <div style={{display:'flex', alignItems:'center', gap:8}}>
             <img src="/src/assets/logo.svg" width="20" height="20" alt="logo" />
-            <span className="small">© {year} YourBrand.AI • Build smarter.</span>
+            <span className="small">© {year} UpNext.AI • Build smarter.</span>
           </div>
-          <div className="small">Gorakhpur • Lucknow • Deoria • Remote</div>
+          <div className="small">Lucknow</div>
         </div>
       </footer>
     </>

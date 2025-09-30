@@ -1,4 +1,4 @@
-# YourBrand.AI — Company Site (React + Vite)
+# UpNext.AI — Company Site (React + Vite)
 
 A polished, single‑page company site for a services company offering web development, mobile apps, automation, AI/ML, cloud/devops, and data engineering.
 
@@ -23,7 +23,7 @@ npm run preview
 ```
 
 ## 🔁 Branding
-Search & replace **YourBrand.AI** with your company name (e.g., `UPNOVA`, `RaiTech.AI`, etc.).
+Search & replace **UpNext.AI** with your company name (e.g., `UPNOVA`, `RaiTech.AI`, etc.).
 Update favicon at `src/assets/logo.svg` and the email in `App.jsx`.
 
 ## ✉️ Contact Form (Formspree)
